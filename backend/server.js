@@ -7,7 +7,7 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors({origin: 'https://wondrous-snickerdoodle-9281f9.netlify.app/'})); // Allow requests from the frontend domain  
+app.use(cors({origin: 'https://wondrous-snickerdoodle-9281f9.netlify.app'})); // Allow requests from the frontend domain  
 app.use(express.json());
 
 // Routes
