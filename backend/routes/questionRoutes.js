@@ -5,8 +5,8 @@ const {
   createQuestion,
 } = require('../controllers/questionController');
 
-router.get('/api/questions', getQuestions);
-router.post('/api/questions', createQuestion);
+router.get('/', getQuestions);
+router.post('/', createQuestion);
 
 module.exports = router;
 // This code sets up the routes for handling questions in a quiz application.
